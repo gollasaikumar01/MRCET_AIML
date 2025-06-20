@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Button</title>
+    <style>
+        h1{
+            color:aqua;
+            background-color: violet;            
+        }
+        body{
+            background-color:white;
+        }
+        p{
+            color:black;
+            background-color:red;
+        }
+        button {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mrcet</h1>
+    <p>Keep Calm </p>
+     <form action="submit">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for = " password">Password:</label>
+                <input type = "password" id ="password" name="password" required><br><br>
+
+                <label for = "Mobile">Mobile:</label>
+                <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required><br><br>
+
+                <h2> Gender</h2>
+                <input type = "radio" name="gender" > Male <br>
+                <input type = "radio" name="gender" > Female <br><br>
+
+                <h2>State</h2>
+                <select name="state" id="state"><br><br>
+                    <option value="ap">TG</option>
+                    <option value="ts">MP</option>
+                    <option value="tn">TN</option>
+                    <option value="karnataka">Karnataka</option>
+                    <option value="kerala">Kerala</option>
+                    <option value="maharashtra">Maharashtra</option>
+                    <option value="up">UP</option>
+                    <option value="tg">AP</option>
+                </select><br><br>
+                
+
+
+                <label for date="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+                <button type="submit">Submit</button><br><br>
+
+
+                <label for address="address"> Address :</label>
+                <textarea id="address" name="address" rows="4" cols="50" required></textarea><br><br>
+
+                <button type="submit">Submit</button>
+
+            </fieldset>
+        </form>
+</body>
+</html>

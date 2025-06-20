@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+      <link rel="stylesheet" type="text/css" href="Demo1.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+  <style>
+     body {
+      margin: 0;
+      padding: 40px;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #dee6f5, #19f3e8);
+      position: relative;
+      color: #000000b6;
+    }
+
+  </style>
+
+</head>
+<body>
+    <div>
+        <form action="submit">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for = " password">Password:</label>
+                <input type = "password" id ="password" name="password" required><br><br>
+
+                <label for = "Mobile">Mobile:</label>
+                <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required><br><br>
+
+                <h2> Gender</h2>
+                <input type = "radio" name="gender" > Male <br>
+                <input type = "radio" name="gender" > Female <br><br>
+
+                <h2>State</h2>
+                <select name="state" id="state"><br><br>
+                    <option value="ap">TG</option>
+                    <option value="ts">MP</option>
+                    <option value="tn">TN</option>
+                    <option value="karnataka">Karnataka</option>
+                    <option value="kerala">Kerala</option>
+                    <option value="maharashtra">Maharashtra</option>
+                    <option value="up">UP</option>
+                    <option value="tg">AP</option>
+                </select><br><br>
+
+
+                <label for date="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+
+                <label for address="address"> Address :</label>
+                <textarea id="address" name="address" rows="4" cols="50" required></textarea><br><br>
+
+                <button type="submit">Submit</button>
+
+            </fieldset>
+        </form>
+        <video src="video_20241210_063601.mp4" height="300" width="500" controls autoplay loop muted></video>    </div>
+        <iframe width="500" height="300" src="https://www.youtube.com/embed/xctm5HXrfg4?autoplay=1&loop=1&playlist=xctm5HXrfg4">
+        </iframe><br>
+        <img width="200" height="300" src="PS.jpg" alt="Image not found" >
+        
+
+</html>
